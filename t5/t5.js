@@ -26,6 +26,7 @@ async function getRestaurants() {
     navigator.geolocation.getCurrentPosition(success, error, options);
   } catch (error) {
     console.error(error.message);
+    // Tähän dialogi näyttämään virheviesti
   }
 }
 
