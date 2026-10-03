@@ -1,5 +1,5 @@
 import {restaurantRow} from './components.js';
-import {fetchData} from './t4.js';
+import {fetchData} from './utils.js';
 
 const apiURL = 'https://media1.edu.metropolia.fi/restaurant/api/v1';
 
